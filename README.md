@@ -1,4 +1,3 @@
-# drifter
-Some say the future of social media lies here
-
+# Template
+my template for react native with node backend and ts
 
