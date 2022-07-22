@@ -1,0 +1,14 @@
+node_modules
+config/*.local.*
+.DS_Store
+package-lock.json
+
+.eslintrc.js
+
+# folder for ts build
+dist
+
+# protect sensible data
+.env
+../private.key
+../public.key

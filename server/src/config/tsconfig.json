@@ -1,0 +1,24 @@
+{
+  "compileOnSave": true,
+  "extends": "@tsconfig/node16/tsconfig.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "noImplicitAny": false,
+    "lib": [
+      "es2015",
+      "es2016",
+      "dom",
+      "es2018.promise"
+    ]
+  },
+  "include": [
+    "../"
+  ],
+  "exclude": [
+    "../../node_modules"
+  ],
+}
